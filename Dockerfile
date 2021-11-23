@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora-minimal:rawhide
+FROM registry.fedoraproject.org/fedora:rawhide
 RUN dnf update -y
 RUN dnf group install -y "System Tools" \
   "Administration Tools" \ 
